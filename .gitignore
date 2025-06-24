@@ -1,0 +1,165 @@
+# ----------------------------------------
+# سیستم‌عامل
+# ----------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ----------------------------------------
+# وابستگی‌ها
+# ----------------------------------------
+/vendor/
+/node_modules/
+
+# ----------------------------------------
+# Composer
+# ----------------------------------------
+composer.lock
+composer.phar
+
+# ----------------------------------------
+# فایل‌های محیطی و تنظیمات محلی
+# ----------------------------------------
+.env
+.env.*.local
+.env.local
+phpunit.xml
+phpunit.xml.dist
+
+# ----------------------------------------
+# کش، لاگ و فایل‌های موقت
+# ----------------------------------------
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/bootstrap/cache/
+/tmp/
+/*.log
+*.cache
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# PHPUnit
+.phpunit.result.cache
+coverage/
+
+# ----------------------------------------
+# دیتابیس محلی
+# ----------------------------------------
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+
+# ----------------------------------------
+# IDEها و ادیتورها
+# ----------------------------------------
+# PhpStorm
+/.idea/
+/*.iml
+
+# VSCode
+.vscode/
+
+# NetBeans
+nbproject/
+
+# Eclipse
+.project
+.metadata/
+/.buildpath
+
+# SublimeText
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.vim
+*.swp
+
+# Emacs
+*~
+
+# ----------------------------------------
+# فایل‌های آپلود شده و خروجی‌ها
+# ----------------------------------------
+/public/uploads/
+/public/storage/
+/storage/app/public/
+
+# اگر خروجی‌های Build دارید
+/dist/
+/build/
+/public/dist/
+/public/build/
+
+# ----------------------------------------
+# فریم‌ورک‌ها (در صورت استفاده)
+# ----------------------------------------
+# Laravel
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+
+# Symfony
+/var/
+/vendor/
+/node_modules/
+/public/bundles/
+/.env.local
+/phpunit.xml
+/phpunit.xml.dist
+
+# CakePHP
+/tmp/
+/logs/
+/vendor/
+/node_modules/
+/config/app.php
+/webroot/img/
+/webroot/files/
+/webroot/css/
+/webroot/js/
+
+# Yii
+/runtime/
+/vendor/
+/node_modules/
+/web/assets/
+/tests/_output/
+
+# Zend Framework / Laminas
+/data/
+/config/autoload/local.php
+/vendor/
+/node_modules/
+
+# ----------------------------------------
+# دیگر
+# ----------------------------------------
+*.zip
+*.rar
+*.tar.gz
+*.tgz
+*.7z
+
+# فایل‌های رسانه‌ای بزرگ (در صورت نیاز)
+*.psd
+*.ai
+*.xcf
